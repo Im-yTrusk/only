@@ -7,4 +7,5 @@ else if placeId == 111989938562194 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Im-yTrusk/only/refs/heads/main/brainrotEvolution.lua"))()
     else
         player:Kick("Game Not Supported!")
+    end
 end
