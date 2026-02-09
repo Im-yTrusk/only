@@ -10,6 +10,8 @@ elseif placeId == 3823781113 then
 elseif placeId == 119987266683883 then
     getgenv().SCRIPT_KEY = ""
     loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/4d5d494d8b936b2ad86c7ba02230d2b56df49e7677839d73abcfa1cef54bd5f8/download"))()
+elseif placeId == 131623223084840 then 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Im-yTrusk/only/refs/heads/main/escapetsunami.lua"))()
 else
     player:Kick("Game Not Supported!")
 end
