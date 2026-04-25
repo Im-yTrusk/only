@@ -21,6 +21,9 @@ elseif placeId == 134763881293027 then
 elseif placeId == 142823291 then
     getgenv().SCRIPT_KEY = ""
     loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/039a8cb410147cf017e8f9714e7f3f598232b1d1f420c2b870d272ec334580a7/download"))()
+else if placeId == 125003919504672 then
+    getgenv().SCRIPT_KEY = ""
+    loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/813a42ce6dd1ff7a11bfbe373022122efeb57fffede736be48c49013afbc3fec/download"))()
 else
     player:Kick("Game Not Supported! Check our Discord: https://discord.gg/8BDWn5J7D2")
 end
