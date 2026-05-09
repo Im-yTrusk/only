@@ -1,29 +1,9 @@
 local placeId = game.PlaceId
 local player = game.Players.LocalPlayer
-if placeId == 109983668079237 then
-    getgenv().SCRIPT_KEY = ""
-    loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/76d354569c8022009a4aead8a6863abf74009a9a73ec81028ac4c08158afcb68/download"))()
-elseif placeId == 111989938562194 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Im-yTrusk/only/refs/heads/main/brainrotEvolution.lua"))()
-elseif placeId == 3823781113 then
+if placeId == 3823781113 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Im-yTrusk/only/refs/heads/main/sabersimulator.lua"))()
-elseif placeId == 119987266683883 then
-    getgenv().SCRIPT_KEY = ""
-    loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/4d5d494d8b936b2ad86c7ba02230d2b56df49e7677839d73abcfa1cef54bd5f8/download"))()
-elseif placeId == 131623223084840 then 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Im-yTrusk/only/refs/heads/main/escapetsunami.lua"))()
-elseif placeId == 124311897657957 then
-    getgenv().SCRIPT_KEY = ""
-    loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/813a42ce6dd1ff7a11bfbe373022122efeb57fffede736be48c49013afbc3fec/download"))()
-elseif placeId == 134763881293027 then
-    getgenv().SCRIPT_KEY = ""
-    loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/de37c73e6ace7cf0da9107d424411fc5b50abf1bacddb7044594e415529b7bb0/download"))()
-elseif placeId == 142823291 then
-    getgenv().SCRIPT_KEY = ""
-    loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/039a8cb410147cf017e8f9714e7f3f598232b1d1f420c2b870d272ec334580a7/download"))()
 elseif placeId == 125003919504672 then
-    getgenv().SCRIPT_KEY = ""
-    loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/813a42ce6dd1ff7a11bfbe373022122efeb57fffede736be48c49013afbc3fec/download"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Im-yTrusk/only/refs/heads/main/myknife.lua"))()
 else
-    player:Kick("Game Not Supported! Check our Discord: https://discord.gg/8BDWn5J7D2")
+    player:Kick("Game Not Supported! Check our Discord: https://discord.gg/jak6yYH8hu")
 end
